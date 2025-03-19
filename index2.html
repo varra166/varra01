@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquor Express - Premium Selection</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <script defer src="data/content.js"></script>
+    <script defer src="scripts/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/liquor2.jpg" alt="Liquor Express Logo" class="logo-animation">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Collection</a></li>
+                <li><a href="#order">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <h1>Welcome to <span class="highlight">Liquor Express</span></h1>
+            <p id="home-description"></p>
+            <img src="images/rack2.jpg" alt="Premium Liquor Display" class="rack-image">
+        </section>
+
+        <section id="menu" class="section">
+            <h2>Our Premium Collection</h2>
+            <div class="grid-container" id="product-list"></div>
+        </section>
+
+        <section id="order" class="section">
+            <h2>Order Online</h2>
+            <p id="order-description"></p>
+            <a href="order.html" class="button">Shop Now</a>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Liquor Express</h2>
+            <p id="about-description"></p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p><strong>Visit Us:</strong> 123 Elite Spirits Ave, NY 10001</p>
+            <p><strong>Call Us:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> support@liquorexpress.com</p>
+            <p>Follow us on social media for the latest updates and exclusive deals.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Liquor Express. Crafted for Connoisseurs.</p>
+    </footer>
+
+    <template id="product-template">
+        <div class="item">
+            <img src="" alt="" class="collection-image">
+            <p><span class="highlight"></span></p>
+        </div>
+    </template>
+</body>
+</html>
